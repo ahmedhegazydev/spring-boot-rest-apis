@@ -20,15 +20,15 @@ public class StudentConfiguration {
             Student studentAhmed = new Student(
                     "Ahmed",
                     "engahmedhegazy2025@gmail.com",
-                    LocalDate.of(2020, Month.JANUARY, 20),
-                    29
+                    LocalDate.of(2020, Month.JANUARY, 20)
+//                    29
             );
 
             Student studentMona =  new Student(
               "Mona Emad",
               "engahmedali2022@gmail.com",
-              LocalDate.of(3939, Month.DECEMBER, 49),
-              48
+              LocalDate.of(3939, Month.DECEMBER, 49)
+//              48
             );
 
             studentRepository.saveAll(List.of(
