@@ -11,7 +11,7 @@ import java.time.Month;
 import java.util.List;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class DemoApplication {
 
     public static void main(String[] args) {
@@ -29,15 +29,15 @@ public class DemoApplication {
 //        return List.of("Hello", "World");
 //    }
 
-    @GetMapping
-    public List<Student> helle(){
-        return List.of(new Student(
-                "Ahmed",
-                "engahmedhegazy2025@gmail.com",
-                LocalDate.of(2025, Month.JANUARY, 20),
-                25
-        ));
-    }
+//    @GetMapping
+//    public List<Student> helle(){
+//        return List.of(new Student(
+//                "Ahmed",
+//                "engahmedhegazy2025@gmail.com",
+//                LocalDate.of(2025, Month.JANUARY, 20),
+//                25
+//        ));
+//    }
 
 
 }
